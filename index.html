@@ -53,17 +53,27 @@
     <section>
         <h2>Pedidos</h2>
         <form action="" method="get">
-            <label for="">Nome</label><br>
-            <input type="text" name="nome"><br>
+            <fieldset>
+                <legend>Dados</legend>
+                <label for="">Nome</label><br>
+                <input type="text" name="nome"><br>
+    
+                <label for="">E-mail</label><br>
+                <input type="email" required name="E-mail"><br>
+    
+                <label for="">Data</label><br>
+                <input type="date" name="data"><br>
+    
+                <label for="">Quantidade</label><br>
+                <input type="number" name="quantidade"><br>
+            </fieldset>
 
-            <label for="">E-mail</label><br>
-            <input type="email" required name="E-mail"><br>
-
-            <label for="">Data</label><br>
-            <input type="date" name="data"><br>
-
-            <label for="">Quantidade</label><br>
-            <input type="number" name="quantidade"><br>
+            <fieldset>
+                <legend for="">itens</legend>
+                <label for=""><input type="checkbox" name="tShirt" value="tShirt">Compra de camisa <br></label>
+                <label for=""><input type="checkbox" name="figureAction" value="figure">compra de figure <br></label>
+                <label for=""><input type="checkbox" name="chaveiro" value="chaveiro">compra de chaveiro <br></label>
+            </fieldset>
 
             <label for="">Comentário</label><br>
             <textarea name="comentário" id="" cols="30" rows="10"></textarea><br>
