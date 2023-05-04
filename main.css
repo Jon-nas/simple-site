@@ -1,5 +1,4 @@
 :root {
-    --green: #00FF00;
     --white: #FFFFFF;
     --black: #000000;
 }
@@ -7,7 +6,21 @@
 body {
     background: var(--bg);
     color: var(--fontColor);
-    font-family: helvetica;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 2.2em;
+}
+
+h1{
+    font-size: 63px;
+    color: darkorchid;
+}
+
+h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: darkorchid;
+    font-weight: 600;
 }
 
 .btn {
@@ -31,7 +44,7 @@ li {
 }
 
 .light-theme {
-    --bg: var(--green);
+    --bg: var(--white);
     --fontColor: var(--black);
     --btnBg: var(--black);
     --btnFontColor: var(--white);
@@ -39,7 +52,7 @@ li {
   
   .dark-theme {
     --bg: var(--black);
-    --fontColor: var(--green);
+    --fontColor: var(--white);
     --btnBg: var(--white);
     --btnFontColor: var(--black);
 }
