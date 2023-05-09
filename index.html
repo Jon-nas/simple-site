@@ -108,51 +108,50 @@
         </table>
     </section>
     <section class="container-fluid bg-light">
-        <h2>Pedidos</h2>
+        <h2 class="text-center">Pedidos</h2>
         <form action="" method="get">
             <fieldset>
                 <legend>Dados</legend>
-                <label for="">Nome</label><br>
-                <input type="text" name="nome"><br>
+                <div class="nb-3">
+                    <label class="form-label" for="nome">Nome</label>
+                    <input type="text" class="form-control" name="nome" id="nome">
+                </div>
 
-                <label for="">E-mail</label><br>
-                <input type="email" required name="E-mail"><br>
+                <div class="nb-3">
+                    <label class="form-label" for="email">E-mail</label>
+                    <input type="email" class="form-control" placeholder="email@.com" required name="email" id="email">
+                </div>
 
-                <label for="">Data</label><br>
-                <input type="date" name="data"><br>
+                <div class="nb-3">
+                    <label class="form-label" for="data">Data</label>
+                    <input type="date" class="form-control" name="data" id="data">
+                </div>
 
-                <label for="">Quantidade</label><br>
-                <input type="number" name="quantidade"><br>
+                <div class="nb-3">
+                    <label class="form-label" for="number">Quantidade</label>
+                    <input type="number" class="form-control" name="quantidade" id="number">
+                </div>
             </fieldset>
 
             <fieldset>
                 <legend for="">itens</legend>
-                <label for=""><input type="checkbox" name="tShirt" value="tShirt">Compra de camisa <br></label>
-                <label for=""><input type="checkbox" name="figureAction" value="figure">compra de figure <br></label>
-                <label for=""><input type="checkbox" name="chaveiro" value="chaveiro">compra de chaveiro <br></label>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="tShirt" value="tShirt" id="camisa">
+                    <label class="form-check-label" for="camisa">Comprar camisa</label>
+                </div>
+
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="figureAction" value="figure" id="figure">
+                    <label class="form-check-label" for="figure">comprar figure</label>
+                </div>
+
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="chaveiro" value="chaveiro" id="chaveiro">
+                    <label class="form-check-label" for="chaveiro">comprar chaveiro</label>
+                </div>
             </fieldset>
 
-            <fieldset>
-                <legend>Forma de pagamento</legend>
-                <label for=""><input type="radio" name="pagamento" value="cartaoDeCredito">cartão de crédito
-                    <br></label>
-                <label for=""><input type="radio" name="pagamento" value="boleto">boleto <br></label>
-                <label for=""><input type="radio" name="pagamento" value="pix">pix <br></label>
-            </fieldset>
-
-            <fieldset>
-                <legend>Prazos de pagamento</legend>
-                <select name="prazoPagamento" id="">
-                    <option value="aVista">Á vista</option>
-                    <option value="3x">3x sem júros</option>
-                    <option value="10x">10x com júros</option>
-                </select>
-            </fieldset>
-
-            <label for="">Comentário</label><br>
-            <textarea name="comentário" id="" cols="30" rows="10"></textarea><br>
-
-            <button>Salvar</button>
+            <button class="btn btn-secondary">Salvar</button>
         </form>
     </section>
     <hr>
