@@ -71,15 +71,6 @@ tr:nth-child(odd) {
     background-color: #ED0000;
 }
 
-#itens, .figuras, figure{
-    display: inline-block;
-    text-align: center;
-}
-
-.videos{
-    text-align: center;
-}
-
 .btn {
     position: absolute;
     top: 20px;
