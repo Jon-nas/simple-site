@@ -16,15 +16,3 @@ h2 {
 img{
     width: 90%;
 }
-
-table {
-    width: 100%;
-}
-
-tr:nth-child(even) {
-    background-color: darkorchid;
-}
-
-tr:nth-child(odd) {
-    background-color: #ED0000;
-}
