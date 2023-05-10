@@ -4,6 +4,7 @@ h1 {
     color: darkorchid;
     padding: 25px;
     text-align: center;
+    text-shadow: 2px 2px 2px black;
 }
 
 h2 {
@@ -15,4 +16,10 @@ h2 {
 
 img{
     width: 90%;
+}
+
+.carousel, .caption, h5{
+    font-size: 80px;
+    color: #ffc107;
+    text-shadow: 2px 2px 2px black;
 }
